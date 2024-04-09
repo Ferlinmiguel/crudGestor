@@ -291,7 +291,7 @@ function App() {
       {/* ESTE ES EL MODAL PARA ELIMINAR */}
       <Modal isOpen={modalEliminar}>
         <ModalBody>
-          ¿Estás seguro que deseas eliminar el gestor de base de datos{"-"}
+          ¿Estás seguro que deseas eliminar el gestor de base de datos{" "}
           {gestorSeleccionado && gestorSeleccionado.nombre}?
         </ModalBody>
         <ModalFooter>
